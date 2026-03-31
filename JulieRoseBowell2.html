@@ -9,94 +9,109 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f4f4f4;
+      background: #f2f2f2;
       color: #222;
-      line-height: 1.4;
+      line-height: 1.35;
     }
 
     .container {
-      max-width: 900px;
-      margin: 20px auto;
+      max-width: 880px;
+      margin: 16px auto;
       background: #fff;
-      padding: 20px;
+      padding: 18px;
     }
 
     .header {
       display: flex;
-      gap: 20px;
+      gap: 16px;
       align-items: flex-start;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     .headshot {
-      width: 160px;
+      width: 150px;
       height: auto;
-      border-radius: 6px;
-      object-fit: cover;
+      border-radius: 4px;
     }
 
     .header-text h1 {
       margin: 0;
-      font-size: 26px;
+      font-size: 24px;
+      letter-spacing: 0.5px;
     }
 
     .header-text p {
-      margin: 4px 0;
-      font-size: 14px;
+      margin: 2px 0;
+      font-size: 13px;
     }
 
     .meta {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 4px 10px;
-      font-size: 13px;
-      margin-top: 8px;
+      gap: 2px 10px;
+      font-size: 12px;
+      margin-top: 6px;
     }
 
     h2 {
-      font-size: 16px;
-      margin: 15px 0 6px;
+      font-size: 15px;
+      margin: 12px 0 4px;
       border-bottom: 1px solid #ddd;
-      padding-bottom: 3px;
+      padding-bottom: 2px;
     }
 
     ul {
-      padding-left: 18px;
-      margin: 5px 0;
+      padding-left: 16px;
+      margin: 4px 0;
     }
 
     li {
-      margin-bottom: 4px;
-      font-size: 13px;
+      margin-bottom: 3px;
+      font-size: 12.5px;
     }
 
     p {
-      margin: 4px 0;
-      font-size: 13px;
+      margin: 3px 0;
+      font-size: 12.5px;
     }
 
     .tags span {
       display: inline-block;
       background: #eee;
-      padding: 3px 6px;
+      padding: 2px 6px;
       margin: 2px;
       font-size: 11px;
-      border-radius: 4px;
+      border-radius: 3px;
     }
 
     .button {
       display: inline-block;
-      margin-top: 8px;
-      padding: 6px 10px;
+      margin-top: 6px;
+      padding: 5px 9px;
       background: #111;
       color: white;
       text-decoration: none;
       font-size: 12px;
-      border-radius: 4px;
+      border-radius: 3px;
     }
 
     a {
       color: #000;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .headshot {
+        width: 140px;
+      }
+
+      .meta {
+        grid-template-columns: 1fr 1fr;
+      }
     }
   </style>
 </head>
@@ -106,7 +121,7 @@
 <div class="container">
 
   <div class="header">
-    <img src="headshot.jpg" alt="Julie Rose Bowell" class="headshot">
+    <img src="headshot.png" alt="Julie Rose Bowell" class="headshot">
 
     <div class="header-text">
       <h1>Julie Rose Bowell</h1>
@@ -136,7 +151,7 @@
 
   <h2>Film</h2>
   <p><strong>Cailín Álainn (2019)</strong> – Sheenagh</p>
-  <p>Dir. Megan K. Fox | DIFF debut | Iris Prize nominee</p>
+  <p>Dir. Megan K. Fox | DIFF | Iris Prize nominee</p>
 
   <h2>Theatre</h2>
   <ul>
