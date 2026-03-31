@@ -6,7 +6,7 @@ This repository contains a simple, clean, casting-focused personal website for J
 
 Once GitHub Pages is enabled, the site will be available at:
 
-https://ian-IBCIRL.github.io/julie-rose-bowell/
+https://ian-IBCIRL.github.io/JulieRoseBowell/
 
 ---
 
